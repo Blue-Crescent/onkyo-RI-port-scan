@@ -1,5 +1,4 @@
-# ONKYO RI port scan
-
+# ONKYO turn on when powered
 TX-NX7SR
 
 Onkyo FR-N7SX(X-N7SX)
