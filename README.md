@@ -4,25 +4,19 @@ TX-NX7SR
 
 Onkyo FR-N7SX(X-N7SX)
 
-Following table is to be confirmed...
+Send TAPE turn on signal 10 times.
 
 |IR CODE| Function|
 |---|---|
 |0x7F | TAPE turn on|
-|0x73 | CD |
-|0x79 | CD Dubbing? |
-|0x77 | CD PLAY|
-|0x79 | CD PAUSE |
-|0x7B | CD STOP |
-|0x70 | TAPE? |
-|0x82 | TAPE? |
-|0x170 | DOCK |
 
 
 
 ## Circuit
 
-Note: GPIO output is inverted, due to inverted MOSFET output circuit.
+Use PD7 port.
 
-![alt text](image.png)
+nSRST function should be disabled by WCH debugger.
+Simply PD7 and register(200Ω) output is connected to Onkyo RI port. 5V TTL output. No transiter required.
 
+<img width="816" height="923" alt="image" src="https://github.com/user-attachments/assets/ab609be9-3298-4fe3-95f2-9353b06db7d7" />
