@@ -1,4 +1,4 @@
-# ONKYO turn on when powered
+# ONKYO automaticc turn on when powered the amp
 TX-NX7SR
 
 Onkyo FR-N7SX(X-N7SX)
